@@ -5,7 +5,8 @@
     <color name="colorAccent">#FFC107</color>
     <color name="brown">#f2d6af</color>
     <color name="lightBrown">#fce5c3</color>
-
+    <color name="yellowbg">#fce595</color>
+    <color name="brownbg">#fad378</color>
     <color name="headings">#FF9800</color>
     <color name="grey">#E5E5E5</color>
     <color name="white">#FFFFFF</color>
