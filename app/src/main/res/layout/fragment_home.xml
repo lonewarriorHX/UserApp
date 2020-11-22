@@ -44,7 +44,7 @@
             android:textStyle="bold"
             android:textColor="#D2000000"
             android:paddingStart="20sp"
-            android:paddingEnd="180sp"
+            android:paddingEnd="160sp"
             android:paddingVertical="10sp"
             android:text="BANGUNIN.ID - Services"
             android:paddingRight="180sp"
@@ -121,7 +121,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/Interior"
+                        android:src="@drawable/interior"
                         />
                     <TextView
                         android:layout_width="wrap_content"
@@ -155,6 +155,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="100sp"
                 app:cardBackgroundColor="@color/colorAccent"
                 app:cardElevation="@dimen/cardview_compat_inset_shadow"
@@ -166,10 +167,10 @@
                     android:textStyle="bold"
                     android:textColor="#D2000000"
                     android:paddingStart="20sp"
-                    android:paddingEnd="145sp"
+                    android:paddingEnd="125sp"
                     android:paddingVertical="10sp"
                     android:text="BANGUNIN.ID - Event &amp; Promos"
-                    android:paddingRight="180sp"
+                    android:paddingRight="125sp"
                     android:paddingLeft="20sp" />
             </androidx.cardview.widget.CardView>
             <HorizontalScrollView
@@ -264,6 +265,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
                 app:cardCornerRadius="100sp"
                 app:cardBackgroundColor="@color/colorAccent"
                 app:cardElevation="@dimen/cardview_compat_inset_shadow"
@@ -275,10 +277,10 @@
                     android:textStyle="bold"
                     android:textColor="#D2000000"
                     android:paddingStart="20sp"
-                    android:paddingEnd="180sp"
+                    android:paddingEnd="160sp"
                     android:paddingVertical="10sp"
                     android:text="BANGUNIN.ID - News Feed"
-                    android:paddingRight="180sp"
+                    android:paddingRight="160sp"
                     android:paddingLeft="20sp" />
             </androidx.cardview.widget.CardView>
 
@@ -301,6 +303,7 @@
                         android:src="@drawable/artikel1" />
                     <TextView
                         android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
@@ -348,6 +351,7 @@
                         android:src="@drawable/artikel2" />
                     <TextView
                         android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
@@ -395,6 +399,7 @@
                         android:src="@drawable/artikel3" />
                     <TextView
                         android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
@@ -443,6 +448,7 @@
                         android:src="@drawable/artikel4" />
                     <TextView
                         android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"

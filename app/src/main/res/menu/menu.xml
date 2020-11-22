@@ -13,12 +13,12 @@
         android:icon="@drawable/ic_baseline_home_work_24"
         android:title="Project" />
     <item
-        android:id="@+id/accountFragment"
-        android:icon="@drawable/ic_baseline_person_24"
-        android:title="Account" />
-    <item
         android:id="@+id/settingsFragment"
         android:icon="@drawable/ic_forum_black_24dp"
         android:title="chats" />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Account" />
 
 </menu>
