@@ -171,7 +171,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="joey@sharenofood.com"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -208,7 +208,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="+1-202-555-0157"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -245,7 +245,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sunter Karya selatan hb XI, Jakarta Utara"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <View
                 android:layout_width="match_parent"
@@ -282,7 +282,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="facebook.com/joeytrib"
-                android:textSize="18sp" />
+                android:textSize="16sp" />
 
             <View
                 android:layout_width="match_parent"
