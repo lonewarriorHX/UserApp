@@ -2,23 +2,23 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ic_baseline_lock_24"
+        android:icon="@drawable/ic_baseline_home_24"
         android:title="Home" />
     <item
         android:id="@+id/portofolioFragment"
-        android:icon="@drawable/ic_baseline_person_24"
+        android:icon="@drawable/ic_baseline_supervisor_account_24"
         android:title="Portofolio" />
     <item
         android:id="@+id/projectFragment"
-        android:icon="@drawable/ic_visibleoff"
+        android:icon="@drawable/ic_baseline_home_work_24"
         android:title="Project" />
     <item
         android:id="@+id/accountFragment"
-        android:icon="@drawable/ic_visible"
+        android:icon="@drawable/ic_baseline_person_24"
         android:title="Account" />
     <item
         android:id="@+id/settingsFragment"
-        android:icon="@drawable/ic_baseline_person_24"
-        android:title="Settings" />
+        android:icon="@drawable/ic_forum_black_24dp"
+        android:title="chats" />
 
 </menu>
