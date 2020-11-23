@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav2"
+    app:startDestination="@id/splashScreeen"
+    tools:ignore="UnusedNavigation">
+
+    <activity
+        android:id="@+id/splashScreeen"
+        android:name="com.example.finalapplication.SplashScreeen"
+        android:label="activity_splash_screeen"
+        tools:layout="@layout/activity_splash_screeen" >
+        <action
+            android:id="@+id/action_splashScreeen_to_firstScreen"
+            app:destination="@id/firstScreen" />
+    </activity>
+    <fragment
+        android:id="@+id/firstScreen"
+        android:name="com.example.finalapplication.onboarding.screen.FirstScreen"
+        android:label="fragment_first_screen"
+        tools:layout="@layout/fragment_first_screen" />
+</navigation>
