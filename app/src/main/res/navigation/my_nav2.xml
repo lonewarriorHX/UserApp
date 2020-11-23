@@ -3,21 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav2"
-    app:startDestination="@id/splashScreeen"
-    tools:ignore="UnusedNavigation">
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/blankFragment">
 
-    <activity
-        android:id="@+id/splashScreeen"
-        android:name="com.example.finalapplication.SplashScreeen"
-        android:label="activity_splash_screeen"
-        tools:layout="@layout/activity_splash_screeen" >
-        <action
-            android:id="@+id/action_splashScreeen_to_firstScreen"
-            app:destination="@id/firstScreen" />
-    </activity>
     <fragment
-        android:id="@+id/firstScreen"
-        android:name="com.example.finalapplication.onboarding.screen.FirstScreen"
-        android:label="fragment_first_screen"
-        tools:layout="@layout/fragment_first_screen" />
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.finalapplication.onboarding.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.finalapplication.onboarding.screen.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.finalapplication.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
 </navigation>
