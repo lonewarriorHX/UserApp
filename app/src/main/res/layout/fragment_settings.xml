@@ -22,42 +22,12 @@
         app:layout_constraintVertical_bias="0.055"
         app:layout_constraintHorizontal_bias="0.17"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Oops!!\nYou Don't Have\n Any Message"
-        android:textSize="20sp"
-        android:textAlignment="center"
-        android:textColor="#989898"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
-        app:layout_constraintHorizontal_bias="0.5"
-        android:gravity="center_horizontal" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="190dp"
+        android:paddingTop="180dp"
         android:orientation="vertical">
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Message" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Notifications" />
-
-    </com.google.android.material.tabs.TabLayout>
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
