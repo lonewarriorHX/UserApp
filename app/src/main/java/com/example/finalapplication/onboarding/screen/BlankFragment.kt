@@ -30,7 +30,8 @@ class BlankFragment : Fragment() {
         Handler().postDelayed({
             if(onBoardingFinished()){
                 findNavController().navigate(R.id.action_blankFragment_to_viewPagerFragment)
-            }else{
+            }
+            else{
                 findNavController().navigate(R.id.action_blankFragment_to_viewPagerFragment)
             }
         }, 3000)

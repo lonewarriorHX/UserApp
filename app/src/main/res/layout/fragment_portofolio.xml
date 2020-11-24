@@ -39,10 +39,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginVertical="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginRight="15dp"
             android:layout_marginLeft="35dp"
             android:background="@drawable/search_layout"
-            android:ems="16"
+            android:ems="15"
             android:hint="Search here"
             android:inputType="textPersonName"
             android:paddingBottom="10dp"
@@ -54,9 +54,9 @@
 
         <ImageView
             android:id="@+id/search_btn"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginVertical="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginVertical="15dp"
             android:background="@android:color/background_light"
             android:src="@drawable/ic_baseline_search_24" />
     </LinearLayout>
