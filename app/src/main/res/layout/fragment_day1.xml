@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="end"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
@@ -33,19 +33,6 @@
             android:layout_gravity="center"
             android:background="@color/colorAccent" />
         </LinearLayout>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Renovasi Atap Rumah "
-            android:textSize="15sp"
-            android:textColor="#000000"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="10dp"/>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginTop="10dp"
-            android:background="@color/colorAccent" />
 
         <ScrollView
             android:layout_width="match_parent"
