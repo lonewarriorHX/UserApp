@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".onboarding.FormPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".onboarding.FotoarsPage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".onboarding.NewsPage"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".DashboardActivity"
             android:screenOrientation="portrait" />

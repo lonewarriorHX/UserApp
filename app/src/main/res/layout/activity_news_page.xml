@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".onboarding.NewsPage">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="right"
+      android:layout_marginTop="20dp">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ic_baseline_favorite_border_24"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="30dp"
+      android:src="@drawable/ic_share_black_24dp"
+        />
+  </LinearLayout>
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+      <ImageView
+          android:layout_width="350dp"
+          android:layout_height="200dp"
+        android:src="@drawable/artikel1"
+          android:scaleType="fitXY"/>
+    </androidx.cardview.widget.CardView>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="end"
+      android:layout_marginTop="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bahan Bangunan"
+        android:layout_marginRight="60dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/ic_baseline_favorite_border_24"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="5,453"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/ic_visible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="1,363"/>
+  </LinearLayout>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="30dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:textSize="25sp"
+    android:text="Desain Rumah Jepang Bernuansa Natural" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingHorizontal="30dp"
+      android:paddingVertical="20dp"
+      android:textSize="16sp"
+      android:text="Desain rumah bergaya Jepang terkenal dengan kesederhanaannya. Rumah bergaya Jepang dibangun dengan bahan ringan alami. Transparansi merupakan ciri khas bangunan bergaya Jepang. Inilah 5 hal utama untuk mendekorasi rumah Jepang.
+
+\n\n1. Elemen alam: Budaya Jepang sangat menghargai alam sekitarnya. Mengadopsi nuansa alami ke dalam dekorasi rumah adalah cara terbaik untuk mempertahankannya. Misalnya dengan menyediakan tanaman hias di rumah. Tanaman tradisional Jepang seperti bonsai dan bambu akan menambah keindahan rumah.
+\n\n2. Pintu geser: Pintu geser atau shoji merupakan elemen penting yang harus diperhatikan pada perabot rumah bergaya Jepang. Shoji terbuat dari kertas transparan dan dibingkai dengan kayu. Jendela besar dan bukaan langit-langit lebar adalah cara ideal untuk mendesain rumah. Berhati-hatilah saat menggunakan gorden besar dan tebal karena akan menghalangi cahaya alami.
+\n\n3. Warna netral yang natural: Sesuai dengan keindahan alamnya, rumah Jepang biasanya memiliki warna-warna sederhana dari alam. Warna utama berasal dari kayu coklat dan tumbuhan hijau. Lantai yang terbuat dari kayu atau ubin abu-abu mirip dengan batu, dan sebagian besar dinding dapat diganti dengan warna matte yang terlihat sempurna.
+\n\n4. Elemen kayu dan bambu: Untuk mengoordinasikan desain interior Jepang, elemen kayu alami harus ditambahkan ke dalam rumah. Dinding, pintu, dan kusen umum menggunakan maple, cypress, hemlock, dan pinus merah. Bambu dipilih untuk keperluan dekoratif. Bahan bambu bisa digunakan sebagai lantai untuk memberikan kesan tenang dan bersih.
+\n\n5. Ruang terbuka: Pada prinsip minimalis, alam adalah kuncinya. Di setiap rumah Jepang, selalu ada ruang terbuka sehingga seluruh ruangan dipenuhi sinar matahari. Jendela besar dan bukaan langit-langit lebar adalah cara ideal untuk mendesain rumah. Berhati-hatilah saat menggunakan gorden besar dan tebal karena akan menghalangi cahaya alami.
+
+\n\n\n\nBagaimana? Apakah Anda tertarik dengan rumah bergaya Jepang?
+\n\nSemoga artikel ini dapat membantu, jangan lupa untuk ikuti terus artikel-artikel lainnya ya!
+" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingHorizontal="30dp"
+          android:paddingBottom="30dp"
+          android:textStyle="bold"
+          android:textSize="16sp"
+          android:text="By Admin Bangunin" />
+    </LinearLayout>
+  </ScrollView>
+
+  </LinearLayout>

@@ -1,11 +1,16 @@
 package com.example.finalapplication
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.ViewPager
+import com.example.finalapplication.onboarding.FormPage
+import com.example.finalapplication.onboarding.NewsPage
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -35,8 +40,22 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val view =inflater.inflate(R.layout.fragment_home, container, false)
+        val btn = view.findViewById<View>(R.id.text1) as TextView
+        val btn2 = view.findViewById<View>(R.id.gambarrenov) as ImageView
+        btn.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, NewsPage::class.java))
+                finish()
+            }
+        }
+        btn2.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, FormPage::class.java))
+                finish()
+            }
+        }
+        return view
     }
 
     companion object {

@@ -1,10 +1,14 @@
 package com.example.finalapplication
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
+import com.example.finalapplication.onboarding.FotoarsPage
+import com.example.finalapplication.onboarding.NewsPage
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,8 +37,15 @@ class PortofolioFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_portofolio, container, false)
+        val view =inflater.inflate(R.layout.fragment_portofolio, container, false)
+        val btn = view.findViewById<View>(R.id.text1) as TextView
+        btn.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, FotoarsPage::class.java))
+                finish()
+            }
+        }
+        return view
     }
 
     companion object {

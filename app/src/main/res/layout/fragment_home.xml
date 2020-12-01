@@ -95,6 +95,7 @@
                     android:orientation="vertical"
                     android:gravity="center">
                     <ImageView
+                        android:id="@+id/gambarrenov"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:src="@drawable/renovasi"
@@ -302,6 +303,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/artikel1" />
                     <TextView
+                        android:id="@+id/text1"
                         android:paddingLeft="15dp"
                         android:paddingTop="10dp"
                         android:layout_width="wrap_content"
