@@ -43,6 +43,9 @@ class HomeFragment : Fragment() {
         val view =inflater.inflate(R.layout.fragment_home, container, false)
         val btn = view.findViewById<View>(R.id.text1) as TextView
         val btn2 = view.findViewById<View>(R.id.gambarrenov) as ImageView
+        val btn3 = view.findViewById<View>(R.id.gambarbangun) as ImageView
+        val btn4 = view.findViewById<View>(R.id.gambararsi) as ImageView
+        val btn5 = view.findViewById<View>(R.id.gambarinter) as ImageView
         btn.setOnClickListener{
             requireActivity().run{
                 startActivity(Intent(this, NewsPage::class.java))
@@ -50,6 +53,24 @@ class HomeFragment : Fragment() {
             }
         }
         btn2.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, FormPage::class.java))
+                finish()
+            }
+        }
+        btn3.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, FormPage::class.java))
+                finish()
+            }
+        }
+        btn4.setOnClickListener{
+            requireActivity().run{
+                startActivity(Intent(this, FormPage::class.java))
+                finish()
+            }
+        }
+        btn5.setOnClickListener{
             requireActivity().run{
                 startActivity(Intent(this, FormPage::class.java))
                 finish()

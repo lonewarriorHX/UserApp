@@ -71,6 +71,7 @@
                     android:orientation="vertical"
                     android:gravity="center">
                 <ImageView
+                    android:id="@+id/gambarbangun"
                     android:layout_width="70dp"
                     android:layout_height="70dp"
                     android:src="@drawable/bangun"
@@ -120,6 +121,7 @@
                     android:orientation="vertical"
                     android:gravity="center">
                     <ImageView
+                        android:id="@+id/gambarinter"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:src="@drawable/interior"
@@ -140,6 +142,7 @@
                     android:orientation="vertical"
                     android:gravity="center">
                     <ImageView
+                        android:id="@+id/gambararsi"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:src="@drawable/arsitektur"
