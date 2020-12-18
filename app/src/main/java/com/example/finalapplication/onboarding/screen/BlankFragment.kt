@@ -42,13 +42,6 @@ class BlankFragment : Fragment() {
             }
         }, 3000)
 
-        btn5.setOnClickListener{
-            requireActivity().run{
-                startActivity(Intent(this, DashboardActivity::class.java))
-                finish()
-            }
-        }
-
         // Inflate the layout for this fragment
         return view
     }
