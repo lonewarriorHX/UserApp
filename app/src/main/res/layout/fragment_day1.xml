@@ -389,13 +389,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <View
-                    android:layout_width="30dp"
-                    android:layout_height="130dp"
-                    android:layout_gravity="bottom"
-                    android:layout_marginLeft="0dp"
-                    android:background="@color/brownbg" />
-
             </LinearLayout>
 
         </ScrollView>

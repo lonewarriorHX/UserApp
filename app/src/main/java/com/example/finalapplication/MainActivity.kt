@@ -125,14 +125,14 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateUI(currentUser : FirebaseUser?){
         if(currentUser != null) {
-            if(currentUser.isEmailVerified) {
+            //if(currentUser.isEmailVerified) {
                 startActivity(Intent(this, DashboardActivity::class.java))
                 finish()
-            }else{
-                Toast.makeText(
-                    baseContext, "Please verify your email",
-                    Toast.LENGTH_SHORT
-                ) .show()
+           // }else{
+           //     Toast.makeText(
+          //          baseContext, "Please verify your email",
+          //          Toast.LENGTH_SHORT
+          //      ) .show()
             }
         }
 

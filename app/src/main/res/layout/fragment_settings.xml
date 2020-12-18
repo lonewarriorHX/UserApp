@@ -4,8 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingsFragment"
-    android:background="@drawable/chatscreen">
+    tools:context=".SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/chatscreen">
+
+    </LinearLayout>
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

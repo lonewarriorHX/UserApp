@@ -32,7 +32,6 @@ class BlankFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view =inflater.inflate(R.layout.fragment_blank, container, false)
-        val btn5 = view.findViewById<View>(R.id.btn5) as TextView
         Handler().postDelayed({
             if(onBoardingFinished()){
                 findNavController().navigate(R.id.action_blankFragment_to_mainActivity)

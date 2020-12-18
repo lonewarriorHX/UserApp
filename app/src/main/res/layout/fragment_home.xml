@@ -355,6 +355,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/artikel2" />
                     <TextView
+                        android:id="@+id/text2"
                         android:paddingLeft="15dp"
                         android:paddingTop="10dp"
                         android:layout_width="wrap_content"
@@ -403,6 +404,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/artikel3" />
                     <TextView
+                        android:id="@+id/text3"
                         android:paddingLeft="15dp"
                         android:paddingTop="10dp"
                         android:layout_width="wrap_content"
@@ -453,6 +455,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/artikel4" />
                     <TextView
+                        android:id="@+id/text4"
                         android:paddingLeft="15dp"
                         android:paddingTop="10dp"
                         android:layout_width="wrap_content"
