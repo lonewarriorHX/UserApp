@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
           //          baseContext, "Please verify your email",
           //          Toast.LENGTH_SHORT
           //      ) .show()
-            }
+          //  }
         }
 
 
